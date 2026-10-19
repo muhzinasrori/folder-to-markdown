@@ -1,0 +1,42 @@
+{
+  "name": "tinymce",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@tinymce/tinymce-react": "^6.3.0",
+    "@tiptap/extension-mathematics": "^3.31.3",
+    "@tiptap/react": "^3.31.3",
+    "@tiptap/starter-kit": "^3.31.3",
+    "equation-editor-react": "^0.0.10",
+    "jquery": "^4.0.0",
+    "katex": "^0.18.7",
+    "lucide-react": "^1.47.0",
+    "mathquill4quill": "^2.4.0",
+    "next": "16.3.5",
+    "nextjs-toploader": "^3.9.17",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-icon": "^1.0.0",
+    "react-icons": "^5.7.0",
+    "react-latex-editor": "^2.0.7",
+    "react-latex-editor-custom-mhzn-v2": "file:.yalc/react-latex-editor-custom-mhzn-v2",
+    "react-quill-new": "^3.8.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/jquery": "^4.0.1",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
