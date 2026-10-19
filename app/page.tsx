@@ -335,7 +335,7 @@ export default function GitHubFolderConverter() {
   // Fungsi tambahan untuk mengecek folder yang di-ignore
   const isInIgnoredFolder = (nameOrPath: string): boolean => {
     const parts = nameOrPath.split('/');
-    return parts.some(part => ignoredFolders.includes(part));
+    return parts.some((part: string) => ignoredFolders.includes(part));
   };
 
   // Fungsi untuk memvalidasi apakah file harus diproses atau di-ignore
@@ -351,7 +351,7 @@ export default function GitHubFolderConverter() {
 
   // Fungsi rekursif untuk membaca struktur direktori secara streaming & malas (Lazy/Iterative)
   const scanDirectory = async (
-    dirHandle: FileSystemDirectoryHandle,
+    dirHandle: any,
     currentTree: FileNode,
     currentRootName: string,
     currentPath: string = "",
@@ -431,7 +431,7 @@ export default function GitHubFolderConverter() {
     try {
       // OPSI UTAMA: Browser Chromium (Chrome, Edge, Brave Modern)
       if (window.showDirectoryPicker) {
-        const dirHandle = await window.showDirectoryPicker();
+        const dirHandle = await (window as any).showDirectoryPicker();
         
         // Tetap pasang loading karena prapemindaian baru selesai setelah folder dipilih
         setIsLoading(true); 
@@ -497,7 +497,7 @@ export default function GitHubFolderConverter() {
         const root: FileNode = { name: detectedName, type: 'folder', path: '', children: {} };
         
         // Proses mapping visual pohon folder cadangan dengan counter berjalan
-        filteredFiles.forEach((file, index) => {
+        filteredFiles.forEach((file: File, index: number) => {
           // Update status teks dinamik per berkas yang terdaftar
           setScanProgress(prev => ({ ...prev, current: index + 1 }));
           setLoadingText(`${t.mapDirText} (${index + 1} dari ${filteredFiles.length} file)`);
