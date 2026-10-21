@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kumpulan Semua Fitur Fitur di NextJs",
-  description: "Semua pustaka dan fitur dapat kamu ujicoba disini",
+  title: "Folder to Markdown Converter",
+  description: "Convert and combine all code files inside a folder into a single Markdown document.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

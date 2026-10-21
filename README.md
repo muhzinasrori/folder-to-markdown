@@ -20,7 +20,7 @@ Perfect for generating code dumps, documentation backups, or feeding your entire
 First, clone the repository and install dependencies:
 
 ```bash
-git https://github.com/muhzinasrori/folder-to-markdown.git
+git clone https://github.com/muhzinasrori/folder-to-markdown.git
 cd folder-to-markdown
 npm install
 ```

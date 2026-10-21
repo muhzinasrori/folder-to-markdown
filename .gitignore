@@ -43,3 +43,6 @@ next-env.d.ts
 
 # yalc
 yalc.lock
+
+AGENTS.md
+CLAUDE.md
