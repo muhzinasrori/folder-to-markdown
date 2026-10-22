@@ -431,7 +431,7 @@ export default function GitHubFolderConverter() {
     try {
       // OPSI UTAMA: Browser Chromium (Chrome, Edge, Brave Modern)
       if (window.showDirectoryPicker) {
-        const dirHandle = await (window as any).showDirectoryPicker();
+        const dirHandle = await window.showDirectoryPicker();
         
         // Tetap pasang loading karena prapemindaian baru selesai setelah folder dipilih
         setIsLoading(true); 
@@ -465,8 +465,8 @@ export default function GitHubFolderConverter() {
 
       let isProcessingFiles = false;
 
-      input.addEventListener('change', (e: any) => {
-        const files = e.target.files;
+      input.addEventListener('change', (e: Event) => {
+        const files = (e.target as HTMLInputElement).files;
         if (!files || files.length === 0) {
           setIsLoading(false); // Matikan loading jika batal
           return;
