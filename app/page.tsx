@@ -298,7 +298,8 @@ export default function GitHubFolderConverter() {
       mapDirText: "Memetakan struktur Folder...",
       bundleText: "Membaca baris kode, menyaring file biner, dan membundelnya ke dalam format Markdown...",
       downloadSuccess: "File Markdown berhasil dibuat dan di-download!",
-      errorNoFiles: "Tidak ada file valid yang bisa diproses."
+      errorNoFiles: "Tidak ada file valid yang bisa diproses.",
+      chooseFolderInfo: "pilih-folder-anda"
     },
     en: {
       title: "FolderToMarkdownV2",
@@ -328,7 +329,8 @@ export default function GitHubFolderConverter() {
       mapDirText: "Mapping folder structure...",
       bundleText: "Reading lines of code, filtering binary files, and bundling them into Markdown format...",
       downloadSuccess: "Markdown file successfully created and downloaded!",
-      errorNoFiles: "No valid files available to process."
+      errorNoFiles: "No valid files available to process.",
+      chooseFolderInfo: "select-your-folder"
     }, 
     es: { // Spanyol
       title: "FolderToMarkdownV2",
@@ -357,7 +359,8 @@ export default function GitHubFolderConverter() {
       mapDirText: "Mapeando estructura de carpetas...",
       bundleText: "Leyendo líneas de código, filtrando archivos binarios y empaquetando en formato Markdown...",
       downloadSuccess: "¡Archivo Markdown creado y descargado con éxito!",
-      errorNoFiles: "No hay archivos válidos disponibles para procesar."
+      errorNoFiles: "No hay archivos válidos disponibles para procesar.",
+      chooseFolderInfo: "selecciona-tu-carpeta"
     },
     fr: { // Prancis
       title: "FolderToMarkdownV2",
@@ -386,7 +389,8 @@ export default function GitHubFolderConverter() {
       mapDirText: "Cartographie de la structure du dossier...",
       bundleText: "Lecture des lignes de code, filtrage des fichiers binaires et regroupement au format Markdown...",
       downloadSuccess: "Fichier Markdown créé et téléchargé avec succès !",
-      errorNoFiles: "Aucun fichier valide disponible pour le traitement."
+      errorNoFiles: "Aucun fichier valide disponible pour le traitement.",
+      chooseFolderInfo: "pchoisissez-votre-dossier"
     },
     de: { // Jerman
       title: "FolderToMarkdownV2",
@@ -415,7 +419,8 @@ export default function GitHubFolderConverter() {
       mapDirText: "Ordnerstruktur wird abgebildet...",
       bundleText: "Codezeilen werden gelesen, Binärdateien gefiltert und im Markdown-Format gebündelt...",
       downloadSuccess: "Markdown-Datei erfolgreich erstellt und heruntergeladen!",
-      errorNoFiles: "Keine gültigen Dateien zur Verarbeitung verfügbar."
+      errorNoFiles: "Keine gültigen Dateien zur Verarbeitung verfügbar.",
+      chooseFolderInfo: "ordner-auswaehlen"
     },
     ja: { // Jepang
       title: "FolderToMarkdownV2",
@@ -444,7 +449,8 @@ export default function GitHubFolderConverter() {
       mapDirText: "フォルダ構造をマッピング中...",
       bundleText: "コード行を読み込み、バイナリファイルをフィルタリングし、Markdown形式にバンドル中...",
       downloadSuccess: "Markdownファイルが正常に作成され、ダウンロードされました！",
-      errorNoFiles: "処理可能な有効なファイルがありません。"
+      errorNoFiles: "処理可能な有効なファイルがありません。",
+      chooseFolderInfo: "フォルダを選択してください"
     },
     ko: { // Korea
       title: "FolderToMarkdownV2",
@@ -473,7 +479,8 @@ export default function GitHubFolderConverter() {
       mapDirText: "폴더 구조 매핑 중...",
       bundleText: "코드 줄을 읽고, 바이너리 파일을 필터링하며, Markdown 형식으로 번들링 중...",
       downloadSuccess: "Markdown 파일이 성공적으로 생성 및 다운로드되었습니다!",
-      errorNoFiles: "처리할 수 있는 유효한 파일이 없습니다."
+      errorNoFiles: "처리할 수 있는 유효한 파일이 없습니다.",
+      chooseFolderInfo: "폴더를-선택하세요"
     },
     zh: { // Mandarin / Cina
       title: "FolderToMarkdownV2",
@@ -502,7 +509,8 @@ export default function GitHubFolderConverter() {
       mapDirText: "正在映射文件夹结构...",
       bundleText: "正在读取代码行、过滤二进制文件并打包为 Markdown 格式...",
       downloadSuccess: "Markdown 文件已成功创建并下载！",
-      errorNoFiles: "没有可用于处理的有效文件。"
+      errorNoFiles: "没有可用于处理的有效文件。",
+      chooseFolderInfo: "选择您的文件夹"
     },
     ru: { // Rusia
       title: "FolderToMarkdownV2",
@@ -531,7 +539,8 @@ export default function GitHubFolderConverter() {
       mapDirText: "Сопоставление структуры папок...",
       bundleText: "Чтение строк кода, фильтрация бинарных файлов и объединение в формат Markdown...",
       downloadSuccess: "Файл Markdown успешно создан и скачан!",
-      errorNoFiles: "Нет доступных для обработки файлов."
+      errorNoFiles: "Нет доступных для обработки файлов.",
+      chooseFolderInfo: "выберите-вашу-папку"
     },
     ar: { // Arab
       title: "FolderToMarkdownV2",
@@ -560,7 +569,8 @@ export default function GitHubFolderConverter() {
       mapDirText: "جاري رسم بنية المجلد...",
       bundleText: "جاري قراءة سطور الأكواد، وتصفية الملفات الثنائية، وحزمها بصيغة Markdown...",
       downloadSuccess: "تم إنشاء ملف Markdown وتحميله بنجاح!",
-      errorNoFiles: "لا توجد ملفات صالحة متاحة للمعالجة."
+      errorNoFiles: "لا توجد ملفات صالحة متاحة للمعالجة.",
+      chooseFolderInfo: "اختر-المجلد-الخاص-ب some"
     },
     pt: { // Portugis
       title: "FolderToMarkdownV2",
@@ -589,7 +599,8 @@ export default function GitHubFolderConverter() {
       mapDirText: "Mapeando estrutura de pastas...",
       bundleText: "Lendo linhas de código, filtrando arquivos binários e agrupando em formato Markdown...",
       downloadSuccess: "Arquivo Markdown criado e baixado com sucesso!",
-      errorNoFiles: "Nenhum arquivo válido disponível para processamento."
+      errorNoFiles: "Nenhum arquivo válido disponível para processamento.",
+      chooseFolderInfo: "pselecione-sua-pasta"
     },
     it: { // Italia
       title: "FolderToMarkdownV2",
@@ -618,7 +629,8 @@ export default function GitHubFolderConverter() {
       mapDirText: "Mappatura della struttura delle cartelle...",
       bundleText: "Lettura delle linee di codice, filtraggio dei file binari e raggruppamento in formato Markdown...",
       downloadSuccess: "File Markdown creato e scaricato con successo!",
-      errorNoFiles: "Nessun file valido disponibile per l'elaborazione."
+      errorNoFiles: "Nessun file valido disponibile per l'elaborazione.",
+      chooseFolderInfo: "seleziona-la-tua-cartella"
     }
   }[language];
 
@@ -928,7 +940,7 @@ export default function GitHubFolderConverter() {
             <div className="flex items-center space-x-2 text-xl font-semibold text-[#f0f6fc]">
               <span className="text-[#58a6ff]">FolderToMarkdownV2</span>
               <span className="text-[#8b949e]">/</span>
-              <span className="text-[#f0f6fc] font-bold">{rootName || "pilih-folder-anda"}</span>
+              <span className="text-[#f0f6fc] font-bold">{rootName || t.chooseFolderInfo}</span>
             </div>
             <p className="text-sm text-[#8b949e] mt-1">
               {t.desc}
