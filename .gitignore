@@ -9,7 +9,6 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-/.yalc
 
 # testing
 /coverage
@@ -40,9 +39,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# yalc
-yalc.lock
-
-AGENTS.md
-CLAUDE.md
