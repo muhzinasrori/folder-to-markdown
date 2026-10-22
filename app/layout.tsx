@@ -45,6 +45,10 @@ export const metadata: Metadata = {
     template: "%s | FolderToMarkdownV2",
   },
 
+  verification: {
+    google: "XoXfm5aQxUrtZ_wQBXIVu3rhlE0htJcZ7FNvzYtZbCg", // Tempelkan kode unik hasil salinan Anda di sini
+  },
+
   description: siteConfig.description,
   keywords: [...siteConfig.keywords],
 
