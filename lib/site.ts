@@ -11,7 +11,7 @@ export const siteConfig = {
   // Domain asli kamu. Pakai https, TANPA garis miring di akhir.
   // Contoh subdomain Vercel : "https://folder-to-markdown.vercel.app"
   // Contoh custom domain    : "https://foldertomarkdown.com"
-  url: "https://folder-to-markdown.vercel.app",
+  url: "https://folder-to-markdown-mhzn.vercel.app",
 
   // Nama situs (muncul di tab browser, hasil pencarian Google,
   // dan judul share WhatsApp/Twitter)
