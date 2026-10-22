@@ -122,7 +122,7 @@ const jsonLd = {
   applicationCategory: "DeveloperApplication",
   operatingSystem: "Any",
   browserRequirements: "Requires JavaScript",
-  inLanguage: "id",
+  inLanguage: "en",
   isAccessibleForFree: true,
   offers: {
     "@type": "Offer",
@@ -130,10 +130,10 @@ const jsonLd = {
     priceCurrency: "USD",
   },
   featureList: [
-    "Konversi isi folder menjadi satu file Markdown",
-    "Visualisasi struktur folder ala GitHub",
-    "Filter folder, file, dan ekstensi yang diabaikan",
-    "100% diproses di browser, file tidak diunggah ke server",
+    "Convert folder contents into a single Markdown file",
+    "GitHub-style folder structure visualization",
+    "Filter for ignored folders, files, and extensions",
+    "100% processed in-browser, files are never uploaded to a server",
   ],
 };
 
@@ -144,7 +144,7 @@ export default function RootLayout({
 }) {
   return (
     <html
-      lang="id"
+      lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">

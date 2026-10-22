@@ -244,7 +244,7 @@ export default function GitHubFolderConverter() {
 
   // Penambahan untuk setting
   const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
-  const [language, setLanguage] = useState<'id' | 'en'>('id');
+  const [language, setLanguage] = useState<any>('en');
 
   // Daftar ekstensi media yang akan di-ignore (kecuali .svg)
   const [ignoredFolders, setIgnoredFolders] = useState<string[]>(['.git', 'node_modules', '.next', '.yalc', '.dist']);
@@ -263,7 +263,7 @@ export default function GitHubFolderConverter() {
   const [newExtInput, setNewExtInput] = useState("");
   const [newFileInput, setNewFileInput] = useState("");
   // temp state
-  const [tempLanguage, setTempLanguage] = useState<'id' | 'en'>('id');
+  const [tempLanguage, setTempLanguage] = useState<any>('en');
   const [tempFolders, setTempFolders] = useState<string[]>([]);
   const [tempExtensions, setTempExtensions] = useState<string[]>([]);
   const [tempFiles, setTempFiles] = useState<string[]>([]); 
@@ -864,7 +864,7 @@ export default function GitHubFolderConverter() {
     await new Promise((resolve) => setTimeout(resolve, 1200));
 
     let markdownContent = `# Bundle Isi Folder: ${rootName}\n\n`;
-    markdownContent += `*Di-generate otomatis pada: ${new Date().toLocaleString('id-ID')}*\n`;
+    markdownContent += `*Automatically generated on: ${new Date().toLocaleString('en-US')}*\n`;
     markdownContent += `*Total file teks/SVG yang berhasil diekstrak: ${finalFilteredFiles.length} file*\n\n`;
     // untuk menambahkan ASCII struktur folder 
     if (folderTree) {

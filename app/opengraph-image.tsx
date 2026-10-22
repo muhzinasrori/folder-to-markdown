@@ -54,15 +54,15 @@ export default function OpengraphImage() {
             textAlign: "center",
           }}
         >
-          Ubah isi folder project jadi satu file Markdown rapi
+          Convert project folder contents into a clean Markdown file
         </div>
         <div style={{ fontSize: 28, color: "#8b949e", marginTop: 12 }}>
-          Sekali klik · Gratis · Tanpa upload · 100% di browser
+          One click · Free · No uploads · 100% in-browser
         </div>
 
         {/* Chips kata kunci */}
         <div style={{ display: "flex", marginTop: 48 }}>
-          {["folder to markdown", "repo to markdown", "markdown untuk AI"].map(
+          {["folder to markdown", "repo to markdown", "markdown for AI"].map( // ◄ "untuk" diganti jadi "for"
             (chip) => (
               <div
                 key={chip}
